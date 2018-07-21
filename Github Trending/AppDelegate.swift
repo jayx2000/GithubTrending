@@ -17,6 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame:UIScreen.main.bounds)
+        
+        // 設置底色
+        self.window!.backgroundColor = UIColor.white
+        let myTabBar = UITabBarController()
+        myTabBar.tabBar.backgroundColor = UIColor.clear
+       let mainViewController = UINavigationController(rootViewController: ViewController())
+        mainViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 100)
+      
+        let pViewController = UINavigationController(rootViewController: popViewController())
+        pViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 200)
+        myTabBar.viewControllers = [mainViewController, pViewController]
+        myTabBar.selectedIndex = 2
+        self.window!.rootViewController = myTabBar
+        self.window!.makeKeyAndVisible()
+        
         return true
     }
 

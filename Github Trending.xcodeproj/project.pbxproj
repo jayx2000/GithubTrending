@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454F692A20FC967400346D9E /* readViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454F692820FC967400346D9E /* readViewController.swift */; };
+		454F692B20FC967400346D9E /* readViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454F692920FC967400346D9E /* readViewController.xib */; };
+		45D311BD20FDE868000C2140 /* popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D311BB20FDE868000C2140 /* popViewController.swift */; };
+		45D311BE20FDE868000C2140 /* popViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D311BC20FDE868000C2140 /* popViewController.xib */; };
 		45F18CAE20EF0BA300C3B582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */; };
 		45F18CB020EF0BA300C3B582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CAF20EF0BA300C3B582 /* ViewController.swift */; };
-		45F18CB320EF0BA300C3B582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F18CB120EF0BA300C3B582 /* Main.storyboard */; };
 		45F18CB620EF0BA300C3B582 /* Github_Trending.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CB420EF0BA300C3B582 /* Github_Trending.xcdatamodeld */; };
 		45F18CB820EF0BA300C3B582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F18CB720EF0BA300C3B582 /* Assets.xcassets */; };
-		45F18CBB20EF0BA300C3B582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F18CB920EF0BA300C3B582 /* LaunchScreen.storyboard */; };
 		45F18CC620EF0BA300C3B582 /* Github_TrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CC520EF0BA300C3B582 /* Github_TrendingTests.swift */; };
 		45F18CD120EF0BA300C3B582 /* Github_TrendingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CD020EF0BA300C3B582 /* Github_TrendingUITests.swift */; };
+		F94473B12EA90B1B2D83BA85 /* Pods_Github_Trending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCCAE9604EA458997E17CDD /* Pods_Github_Trending.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FCCAE9604EA458997E17CDD /* Pods_Github_Trending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Trending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		454F692820FC967400346D9E /* readViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readViewController.swift; sourceTree = "<group>"; };
+		454F692920FC967400346D9E /* readViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = readViewController.xib; sourceTree = "<group>"; };
+		45D311BB20FDE868000C2140 /* popViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popViewController.swift; sourceTree = "<group>"; };
+		45D311BC20FDE868000C2140 /* popViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popViewController.xib; sourceTree = "<group>"; };
 		45F18CAA20EF0BA300C3B582 /* Github Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Trending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F18CAF20EF0BA300C3B582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45F18CB220EF0BA300C3B582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F18CB520EF0BA300C3B582 /* Github_Trending.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Github_Trending.xcdatamodel; sourceTree = "<group>"; };
 		45F18CB720EF0BA300C3B582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45F18CBA20EF0BA300C3B582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F18CBC20EF0BA300C3B582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F18CC120EF0BA300C3B582 /* Github TrendingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github TrendingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F18CC520EF0BA300C3B582 /* Github_TrendingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_TrendingTests.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		45F18CCC20EF0BA300C3B582 /* Github TrendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github TrendingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F18CD020EF0BA300C3B582 /* Github_TrendingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_TrendingUITests.swift; sourceTree = "<group>"; };
 		45F18CD220EF0BA300C3B582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9546575212300F847BB49594 /* Pods-Github Trending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Trending.release.xcconfig"; path = "Pods/Target Support Files/Pods-Github Trending/Pods-Github Trending.release.xcconfig"; sourceTree = "<group>"; };
+		F14FB39FE6644ADE41B822D9 /* Pods-Github Trending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Trending.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Trending/Pods-Github Trending.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94473B12EA90B1B2D83BA85 /* Pods_Github_Trending.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A56B7F76CC8D6D069D57A04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F14FB39FE6644ADE41B822D9 /* Pods-Github Trending.debug.xcconfig */,
+				9546575212300F847BB49594 /* Pods-Github Trending.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		45F18CA120EF0BA300C3B582 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +101,8 @@
 				45F18CC420EF0BA300C3B582 /* Github TrendingTests */,
 				45F18CCF20EF0BA300C3B582 /* Github TrendingUITests */,
 				45F18CAB20EF0BA300C3B582 /* Products */,
+				2A56B7F76CC8D6D069D57A04 /* Pods */,
+				95915C61A85C96D67E1C583D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +119,15 @@
 		45F18CAC20EF0BA300C3B582 /* Github Trending */ = {
 			isa = PBXGroup;
 			children = (
+				454F692820FC967400346D9E /* readViewController.swift */,
+				454F692920FC967400346D9E /* readViewController.xib */,
 				45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */,
 				45F18CAF20EF0BA300C3B582 /* ViewController.swift */,
-				45F18CB120EF0BA300C3B582 /* Main.storyboard */,
 				45F18CB720EF0BA300C3B582 /* Assets.xcassets */,
-				45F18CB920EF0BA300C3B582 /* LaunchScreen.storyboard */,
 				45F18CBC20EF0BA300C3B582 /* Info.plist */,
 				45F18CB420EF0BA300C3B582 /* Github_Trending.xcdatamodeld */,
+				45D311BB20FDE868000C2140 /* popViewController.swift */,
+				45D311BC20FDE868000C2140 /* popViewController.xib */,
 			);
 			path = "Github Trending";
 			sourceTree = "<group>";
@@ -128,6 +150,14 @@
 			path = "Github TrendingUITests";
 			sourceTree = "<group>";
 		};
+		95915C61A85C96D67E1C583D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCCAE9604EA458997E17CDD /* Pods_Github_Trending.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45F18CD520EF0BA300C3B582 /* Build configuration list for PBXNativeTarget "Github Trending" */;
 			buildPhases = (
+				6E46DE7B5E3FABFB42A6CC9E /* [CP] Check Pods Manifest.lock */,
 				45F18CA620EF0BA300C3B582 /* Sources */,
 				45F18CA720EF0BA300C3B582 /* Frameworks */,
 				45F18CA820EF0BA300C3B582 /* Resources */,
+				93AF894E5AA76E11ABCBFE69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F18CBB20EF0BA300C3B582 /* LaunchScreen.storyboard in Resources */,
+				45D311BE20FDE868000C2140 /* popViewController.xib in Resources */,
 				45F18CB820EF0BA300C3B582 /* Assets.xcassets in Resources */,
-				45F18CB320EF0BA300C3B582 /* Main.storyboard in Resources */,
+				454F692B20FC967400346D9E /* readViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +289,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E46DE7B5E3FABFB42A6CC9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Github Trending-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93AF894E5AA76E11ABCBFE69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Github Trending/Pods-Github Trending-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Github Trending/Pods-Github Trending-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45F18CA620EF0BA300C3B582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D311BD20FDE868000C2140 /* popViewController.swift in Sources */,
 				45F18CB020EF0BA300C3B582 /* ViewController.swift in Sources */,
 				45F18CB620EF0BA300C3B582 /* Github_Trending.xcdatamodeld in Sources */,
+				454F692A20FC967400346D9E /* readViewController.swift in Sources */,
 				45F18CAE20EF0BA300C3B582 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,25 +375,6 @@
 			targetProxy = 45F18CCD20EF0BA300C3B582 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		45F18CB120EF0BA300C3B582 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45F18CB220EF0BA300C3B582 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		45F18CB920EF0BA300C3B582 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45F18CBA20EF0BA300C3B582 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		45F18CD320EF0BA300C3B582 /* Debug */ = {
@@ -428,6 +486,7 @@
 		};
 		45F18CD620EF0BA300C3B582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14FB39FE6644ADE41B822D9 /* Pods-Github Trending.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +501,7 @@
 		};
 		45F18CD720EF0BA300C3B582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9546575212300F847BB49594 /* Pods-Github Trending.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
