@@ -23,6 +23,24 @@
 		45ABD3E72104B6650086BC30 /* favoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45ABD3E12104B6650086BC30 /* favoriteViewController.xib */; };
 		45D311BD20FDE868000C2140 /* popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D311BB20FDE868000C2140 /* popViewController.swift */; };
 		45D311BE20FDE868000C2140 /* popViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D311BC20FDE868000C2140 /* popViewController.xib */; };
+		45D513432108D7060048D5AA /* allViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513412108D7060048D5AA /* allViewController.swift */; };
+		45D513442108D7060048D5AA /* allViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D513422108D7060048D5AA /* allViewController.xib */; };
+		45D513472108D7150048D5AA /* C++ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513452108D7150048D5AA /* C++ViewController.swift */; };
+		45D513482108D7150048D5AA /* C++ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D513462108D7150048D5AA /* C++ViewController.xib */; };
+		45D5134D2108D7340048D5AA /* JavaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D5134B2108D7340048D5AA /* JavaViewController.swift */; };
+		45D5134E2108D7340048D5AA /* JavaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D5134C2108D7340048D5AA /* JavaViewController.xib */; };
+		45D513532108D75D0048D5AA /* JSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513512108D75D0048D5AA /* JSViewController.swift */; };
+		45D513542108D75D0048D5AA /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D513522108D75D0048D5AA /* JSViewController.xib */; };
+		45D513572108D76C0048D5AA /* PythonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513552108D76C0048D5AA /* PythonViewController.swift */; };
+		45D513582108D76C0048D5AA /* PythonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D513562108D76C0048D5AA /* PythonViewController.xib */; };
+		45D5135B2108D7820048D5AA /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513592108D7820048D5AA /* OtherViewController.swift */; };
+		45D5135C2108D7820048D5AA /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D5135A2108D7820048D5AA /* OtherViewController.xib */; };
+		45D5135F2108D7A30048D5AA /* PHPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D5135D2108D7A30048D5AA /* PHPViewController.swift */; };
+		45D513602108D7A30048D5AA /* PHPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D5135E2108D7A30048D5AA /* PHPViewController.xib */; };
+		45D513632108D7BA0048D5AA /* RubyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513612108D7BA0048D5AA /* RubyViewController.swift */; };
+		45D513642108D7BA0048D5AA /* RubyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D513622108D7BA0048D5AA /* RubyViewController.xib */; };
+		45D513672108D7C90048D5AA /* HTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D513652108D7C90048D5AA /* HTMLViewController.swift */; };
+		45D513682108D7C90048D5AA /* HTMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D513662108D7C90048D5AA /* HTMLViewController.xib */; };
 		45F18CAE20EF0BA300C3B582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */; };
 		45F18CB020EF0BA300C3B582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CAF20EF0BA300C3B582 /* ViewController.swift */; };
 		45F18CB620EF0BA300C3B582 /* Github_Trending.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CB420EF0BA300C3B582 /* Github_Trending.xcdatamodeld */; };
@@ -90,6 +108,24 @@
 		45ABD3E12104B6650086BC30 /* favoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favoriteViewController.xib; sourceTree = "<group>"; };
 		45D311BB20FDE868000C2140 /* popViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popViewController.swift; sourceTree = "<group>"; };
 		45D311BC20FDE868000C2140 /* popViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popViewController.xib; sourceTree = "<group>"; };
+		45D513412108D7060048D5AA /* allViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allViewController.swift; sourceTree = "<group>"; };
+		45D513422108D7060048D5AA /* allViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = allViewController.xib; sourceTree = "<group>"; };
+		45D513452108D7150048D5AA /* C++ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "C++ViewController.swift"; sourceTree = "<group>"; };
+		45D513462108D7150048D5AA /* C++ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "C++ViewController.xib"; sourceTree = "<group>"; };
+		45D5134B2108D7340048D5AA /* JavaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaViewController.swift; sourceTree = "<group>"; };
+		45D5134C2108D7340048D5AA /* JavaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JavaViewController.xib; sourceTree = "<group>"; };
+		45D513512108D75D0048D5AA /* JSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSViewController.swift; sourceTree = "<group>"; };
+		45D513522108D75D0048D5AA /* JSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSViewController.xib; sourceTree = "<group>"; };
+		45D513552108D76C0048D5AA /* PythonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonViewController.swift; sourceTree = "<group>"; };
+		45D513562108D76C0048D5AA /* PythonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PythonViewController.xib; sourceTree = "<group>"; };
+		45D513592108D7820048D5AA /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		45D5135A2108D7820048D5AA /* OtherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		45D5135D2108D7A30048D5AA /* PHPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPViewController.swift; sourceTree = "<group>"; };
+		45D5135E2108D7A30048D5AA /* PHPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PHPViewController.xib; sourceTree = "<group>"; };
+		45D513612108D7BA0048D5AA /* RubyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyViewController.swift; sourceTree = "<group>"; };
+		45D513622108D7BA0048D5AA /* RubyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RubyViewController.xib; sourceTree = "<group>"; };
+		45D513652108D7C90048D5AA /* HTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLViewController.swift; sourceTree = "<group>"; };
+		45D513662108D7C90048D5AA /* HTMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTMLViewController.xib; sourceTree = "<group>"; };
 		45F18CAA20EF0BA300C3B582 /* Github Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Trending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F18CAF20EF0BA300C3B582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +186,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		45768E532108E4FE00EF1EF3 /* favorite */ = {
+			isa = PBXGroup;
+			children = (
+				45ABD3E02104B6650086BC30 /* favoriteViewController.swift */,
+				4544A58F210836F70055ECF9 /* favTrendingViewController.swift */,
+				4544A590210836F70055ECF9 /* favTrendingViewController.xib */,
+				45ABD3E12104B6650086BC30 /* favoriteViewController.xib */,
+				454DAC332108A17000BB46DA /* popFavViewController.swift */,
+				454DAC342108A17000BB46DA /* popFavViewController.xib */,
+			);
+			path = favorite;
+			sourceTree = "<group>";
+		};
+		45D5136A2108D80D0048D5AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45D513412108D7060048D5AA /* allViewController.swift */,
+				45D513422108D7060048D5AA /* allViewController.xib */,
+				45D513452108D7150048D5AA /* C++ViewController.swift */,
+				45D513462108D7150048D5AA /* C++ViewController.xib */,
+				45D5134B2108D7340048D5AA /* JavaViewController.swift */,
+				45D5134C2108D7340048D5AA /* JavaViewController.xib */,
+				45D513512108D75D0048D5AA /* JSViewController.swift */,
+				45D513522108D75D0048D5AA /* JSViewController.xib */,
+				45D513552108D76C0048D5AA /* PythonViewController.swift */,
+				45D513562108D76C0048D5AA /* PythonViewController.xib */,
+				45D513592108D7820048D5AA /* OtherViewController.swift */,
+				45D5135A2108D7820048D5AA /* OtherViewController.xib */,
+				45D5135D2108D7A30048D5AA /* PHPViewController.swift */,
+				45D5135E2108D7A30048D5AA /* PHPViewController.xib */,
+				45D513612108D7BA0048D5AA /* RubyViewController.swift */,
+				45D513622108D7BA0048D5AA /* RubyViewController.xib */,
+				45D513652108D7C90048D5AA /* HTMLViewController.swift */,
+				45D513662108D7C90048D5AA /* HTMLViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		45F18CA120EF0BA300C3B582 = {
 			isa = PBXGroup;
 			children = (
@@ -176,21 +250,17 @@
 		45F18CAC20EF0BA300C3B582 /* Github Trending */ = {
 			isa = PBXGroup;
 			children = (
+				45F18CB720EF0BA300C3B582 /* Assets.xcassets */,
 				454F692820FC967400346D9E /* readViewController.swift */,
 				454F692920FC967400346D9E /* readViewController.xib */,
 				45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */,
 				45F18CAF20EF0BA300C3B582 /* ViewController.swift */,
-				45F18CB720EF0BA300C3B582 /* Assets.xcassets */,
+				45D5136A2108D80D0048D5AA /* View */,
 				45F18CBC20EF0BA300C3B582 /* Info.plist */,
 				45F18CB420EF0BA300C3B582 /* Github_Trending.xcdatamodeld */,
 				45D311BB20FDE868000C2140 /* popViewController.swift */,
 				45D311BC20FDE868000C2140 /* popViewController.xib */,
-				45ABD3E02104B6650086BC30 /* favoriteViewController.swift */,
-				4544A58F210836F70055ECF9 /* favTrendingViewController.swift */,
-				4544A590210836F70055ECF9 /* favTrendingViewController.xib */,
-				45ABD3E12104B6650086BC30 /* favoriteViewController.xib */,
-				454DAC332108A17000BB46DA /* popFavViewController.swift */,
-				454DAC342108A17000BB46DA /* popFavViewController.xib */,
+				45768E532108E4FE00EF1EF3 /* favorite */,
 			);
 			path = "Github Trending";
 			sourceTree = "<group>";
@@ -349,11 +419,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4544A592210836F70055ECF9 /* favTrendingViewController.xib in Resources */,
+				45D5135C2108D7820048D5AA /* OtherViewController.xib in Resources */,
+				45D513682108D7C90048D5AA /* HTMLViewController.xib in Resources */,
 				45D311BE20FDE868000C2140 /* popViewController.xib in Resources */,
+				45D513602108D7A30048D5AA /* PHPViewController.xib in Resources */,
 				45F18CB820EF0BA300C3B582 /* Assets.xcassets in Resources */,
+				45D513582108D76C0048D5AA /* PythonViewController.xib in Resources */,
+				45D513642108D7BA0048D5AA /* RubyViewController.xib in Resources */,
 				45ABD3E52104B6650086BC30 /* favoriteViewController.xib in Resources */,
+				45D5134E2108D7340048D5AA /* JavaViewController.xib in Resources */,
 				454DAC362108A17000BB46DA /* popFavViewController.xib in Resources */,
+				45D513442108D7060048D5AA /* allViewController.xib in Resources */,
+				45D513482108D7150048D5AA /* C++ViewController.xib in Resources */,
 				454F692B20FC967400346D9E /* readViewController.xib in Resources */,
+				45D513542108D75D0048D5AA /* JSViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,12 +502,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D513572108D76C0048D5AA /* PythonViewController.swift in Sources */,
 				454DAC352108A17000BB46DA /* popFavViewController.swift in Sources */,
+				45D5135F2108D7A30048D5AA /* PHPViewController.swift in Sources */,
 				45D311BD20FDE868000C2140 /* popViewController.swift in Sources */,
+				45D513632108D7BA0048D5AA /* RubyViewController.swift in Sources */,
+				45D513432108D7060048D5AA /* allViewController.swift in Sources */,
 				45F18CB020EF0BA300C3B582 /* ViewController.swift in Sources */,
 				45ABD3E22104B6650086BC30 /* favoriteViewController.swift in Sources */,
 				45F18CB620EF0BA300C3B582 /* Github_Trending.xcdatamodeld in Sources */,
+				45D513472108D7150048D5AA /* C++ViewController.swift in Sources */,
 				454F692A20FC967400346D9E /* readViewController.swift in Sources */,
+				45D5135B2108D7820048D5AA /* OtherViewController.swift in Sources */,
+				45D5134D2108D7340048D5AA /* JavaViewController.swift in Sources */,
+				45D513672108D7C90048D5AA /* HTMLViewController.swift in Sources */,
+				45D513532108D75D0048D5AA /* JSViewController.swift in Sources */,
 				4544A591210836F70055ECF9 /* favTrendingViewController.swift in Sources */,
 				45F18CAE20EF0BA300C3B582 /* AppDelegate.swift in Sources */,
 			);
