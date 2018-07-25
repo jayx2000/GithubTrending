@@ -13,8 +13,12 @@ class popViewController: UIViewController ,UITableViewDelegate , UITableViewData
         var i = 0
         var val :[message] = []
         let fullScreenSize = UIScreen.main.bounds.size
+       // var myUserDefaults :UserDefaults?
+        var favorite:[String] = []
+    let myUserDefaults = UserDefaults.standard
         override func viewDidLoad() {
             self.title = "Popular"
+            
             super.viewDidLoad()
             Alamofire.request("https://api.github.com/search/repositories",parameters:["q":"stars:>1","sort":"stars"]).responseJSON { response in
                 switch response.result {
@@ -56,18 +60,41 @@ class popViewController: UIViewController ,UITableViewDelegate , UITableViewData
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as UITableViewCell
             
+            if indexPath.section == 0 {
+                    cell.accessoryType = .detailButton
+                }
             if let myLabel = cell.textLabel {
                 myLabel.text = val[indexPath.row].title!
             }
             
             return cell
         }
-      
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        if(!val[indexPath.row].isfavorite){
+            val[indexPath.row].isfavorite = true
+        }else{
+            val[indexPath.row].isfavorite = false
+        }
+        if(val[indexPath.row].isfavorite){
+            favorite.append(val[indexPath.row].title!)
+         //   myUserDefaults?.removeObject(forKey: "info")
+            myUserDefaults.set(favorite, forKey: "pop")
+            myUserDefaults.synchronize()
+        }else{
+            var a = 0
+            for i in favorite{
+                if(i == val[indexPath.row].title!){
+                    
+                    favorite.remove(at: a)
+                }
+                  a = a + 1
+            }
+        }
+    }
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             let firstVC = readViewController(nibName:"readViewController",bundle: nil)
             firstVC.urloftitle = val[indexPath.row].url
             present(firstVC, animated: true, completion: nil)
-            
         }
         
         override func didReceiveMemoryWarning() {

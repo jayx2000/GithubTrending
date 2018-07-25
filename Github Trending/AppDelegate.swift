@@ -25,14 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         myTabBar.tabBar.backgroundColor = UIColor.clear
        let mainViewController = UINavigationController(rootViewController: ViewController())
         mainViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 100)
-      
         let pViewController = UINavigationController(rootViewController: popViewController())
         pViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 200)
-        myTabBar.viewControllers = [mainViewController, pViewController]
-        myTabBar.selectedIndex = 2
+        let favViewController = UINavigationController(rootViewController: favoriteViewController())
+        favViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 300)
+        myTabBar.viewControllers = [mainViewController, pViewController,favViewController]
+        myTabBar.selectedIndex = 3
         self.window!.rootViewController = myTabBar
         self.window!.makeKeyAndVisible()
-        
         return true
     }
 

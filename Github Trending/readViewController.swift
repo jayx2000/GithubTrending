@@ -15,7 +15,6 @@ class readViewController: UIViewController, UITextFieldDelegate, WKNavigationDel
     var urloftitle :String?
     
     override func viewDidLoad() {
-   
         super.viewDidLoad()
         let fullScreenSize = UIScreen.main.bounds.size
         let goWidth = 100.0

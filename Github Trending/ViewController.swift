@@ -13,17 +13,18 @@ class message{
     var title: String?
     var url: String?
     var langeuage: String?
+    var isfavorite: Bool = false
 }
 class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSource , UIPickerViewDelegate, UIPickerViewDataSource{
     let period = ["daily","weekly","monthly"]
     var langeuage = ["All","C++","HTML","Java","JavaScript","PHP","Python","Ruby","Unknow"]
-    var whatPeriod = "daily"
+    var whatPeriod = "monthly"
     var whatLangeuage = "All"
-
+    var favorite:[String] = []
+    let myUserDefaults = UserDefaults.standard
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
          return 2
     }
-    
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         if component == 0 {
             return period.count
@@ -44,6 +45,7 @@ class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSou
         myTextField?.text = period[row]
         whatPeriod = (myTextField?.text)!
         pickerView.reloadComponent(row)
+        viewDidLoad()
     }
    
     var i = 0
@@ -52,7 +54,6 @@ class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSou
     @objc func hideKeyboard(tapG:UITapGestureRecognizer){
         self.view.endEditing(true)
     }
-    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -71,7 +72,6 @@ class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSou
         for checkingRes in res! {
             if(self.i == self.val.count){
                 self.val.append(message.init())
-                
             }
             self.val[self.i].title = (str as NSString).substring(with: checkingRes.range)
             self.val[self.i].title = self.val[self.i].title?.replacingOccurrences(of:" ", with: "")
@@ -102,14 +102,13 @@ class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSou
         myTableView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 20)
         myTableView.allowsSelection = true
         myTableView.allowsMultipleSelection = false
-        
         self.view.addSubview(myTableView)
         let myTextField = UITextField(frame: CGRect(x: 0, y: 0,width: self.fullScreenSize.width, height: 40))
         let myPickerView = UIPickerView()
         myPickerView.delegate = self
         myPickerView.dataSource = self
         myTextField.inputView = myPickerView
-        myTextField.text = self.period[0]
+        myTextField.text = self.whatPeriod
         myTextField.tag = 100
         myTextField.backgroundColor = UIColor.init(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
         myTextField.textAlignment = .center
@@ -119,27 +118,46 @@ class ViewController: UIViewController ,UITableViewDelegate , UITableViewDataSou
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
         myTableView.reloadData()
-       
       }
     
       
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      
         return val.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as UITableViewCell
-        
+        if indexPath.section == 0 {
+            cell.accessoryType = .detailButton
+        }
         if let myLabel = cell.textLabel {
             myLabel.text = val[indexPath.row].title!
         }
-       
         return cell
     }
-  
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        if(!val[indexPath.row].isfavorite){
+            val[indexPath.row].isfavorite = true
+        }else{
+            val[indexPath.row].isfavorite = false
+        }
+        if(val[indexPath.row].isfavorite){
+            favorite.append(val[indexPath.row].title!)
+            //   myUserDefaults?.removeObject(forKey: "info")
+            myUserDefaults.set(favorite, forKey: "trend")
+            myUserDefaults.synchronize()
+        }else{
+            var a = 0
+            for i in favorite{
+                if(i == val[indexPath.row].title!){
+                    favorite.remove(at: a)
+                }
+                a = a + 1
+            }
+        }
+    }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let firstVC = readViewController(nibName:"readViewController",bundle: nil)
         firstVC.urloftitle = val[indexPath.row].url

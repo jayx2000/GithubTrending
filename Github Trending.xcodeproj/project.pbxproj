@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4544A58A210833530055ECF9 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4544A589210833270055ECF9 /* PagingMenuController.framework */; };
+		4544A58B210833530055ECF9 /* PagingMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4544A589210833270055ECF9 /* PagingMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4544A591210836F70055ECF9 /* favTrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4544A58F210836F70055ECF9 /* favTrendingViewController.swift */; };
+		4544A592210836F70055ECF9 /* favTrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4544A590210836F70055ECF9 /* favTrendingViewController.xib */; };
+		454DAC352108A17000BB46DA /* popFavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DAC332108A17000BB46DA /* popFavViewController.swift */; };
+		454DAC362108A17000BB46DA /* popFavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454DAC342108A17000BB46DA /* popFavViewController.xib */; };
 		454F692A20FC967400346D9E /* readViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454F692820FC967400346D9E /* readViewController.swift */; };
 		454F692B20FC967400346D9E /* readViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454F692920FC967400346D9E /* readViewController.xib */; };
+		45ABD3E22104B6650086BC30 /* favoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ABD3E02104B6650086BC30 /* favoriteViewController.swift */; };
+		45ABD3E32104B6650086BC30 /* favoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ABD3E02104B6650086BC30 /* favoriteViewController.swift */; };
+		45ABD3E42104B6650086BC30 /* favoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ABD3E02104B6650086BC30 /* favoriteViewController.swift */; };
+		45ABD3E52104B6650086BC30 /* favoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45ABD3E12104B6650086BC30 /* favoriteViewController.xib */; };
+		45ABD3E62104B6650086BC30 /* favoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45ABD3E12104B6650086BC30 /* favoriteViewController.xib */; };
+		45ABD3E72104B6650086BC30 /* favoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45ABD3E12104B6650086BC30 /* favoriteViewController.xib */; };
 		45D311BD20FDE868000C2140 /* popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D311BB20FDE868000C2140 /* popViewController.swift */; };
 		45D311BE20FDE868000C2140 /* popViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D311BC20FDE868000C2140 /* popViewController.xib */; };
 		45F18CAE20EF0BA300C3B582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F18CAD20EF0BA300C3B582 /* AppDelegate.swift */; };
@@ -21,6 +33,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4544A588210833270055ECF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4544A584210833270055ECF9 /* PagingMenuController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECE530671B6DEB18001CF201;
+			remoteInfo = PagingMenuController;
+		};
+		4544A58C210833530055ECF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4544A584210833270055ECF9 /* PagingMenuController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE530661B6DEB18001CF201;
+			remoteInfo = PagingMenuController;
+		};
 		45F18CC220EF0BA300C3B582 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45F18CA220EF0BA300C3B582 /* Project object */;
@@ -37,10 +63,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4544A58E210833530055ECF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4544A58B210833530055ECF9 /* PagingMenuController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3FCCAE9604EA458997E17CDD /* Pods_Github_Trending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Trending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4544A584210833270055ECF9 /* PagingMenuController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PagingMenuController.xcodeproj; path = "../../Downloads/PagingMenuController-master/PagingMenuController.xcodeproj"; sourceTree = "<group>"; };
+		4544A58F210836F70055ECF9 /* favTrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favTrendingViewController.swift; sourceTree = "<group>"; };
+		4544A590210836F70055ECF9 /* favTrendingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favTrendingViewController.xib; sourceTree = "<group>"; };
+		454DAC332108A17000BB46DA /* popFavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popFavViewController.swift; sourceTree = "<group>"; };
+		454DAC342108A17000BB46DA /* popFavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popFavViewController.xib; sourceTree = "<group>"; };
 		454F692820FC967400346D9E /* readViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readViewController.swift; sourceTree = "<group>"; };
 		454F692920FC967400346D9E /* readViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = readViewController.xib; sourceTree = "<group>"; };
+		45ABD3E02104B6650086BC30 /* favoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteViewController.swift; sourceTree = "<group>"; };
+		45ABD3E12104B6650086BC30 /* favoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favoriteViewController.xib; sourceTree = "<group>"; };
 		45D311BB20FDE868000C2140 /* popViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popViewController.swift; sourceTree = "<group>"; };
 		45D311BC20FDE868000C2140 /* popViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popViewController.xib; sourceTree = "<group>"; };
 		45F18CAA20EF0BA300C3B582 /* Github Trending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Trending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94473B12EA90B1B2D83BA85 /* Pods_Github_Trending.framework in Frameworks */,
+				4544A58A210833530055ECF9 /* PagingMenuController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +142,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4544A585210833270055ECF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4544A589210833270055ECF9 /* PagingMenuController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		45F18CA120EF0BA300C3B582 = {
 			isa = PBXGroup;
 			children = (
+				4544A584210833270055ECF9 /* PagingMenuController.xcodeproj */,
 				45F18CAC20EF0BA300C3B582 /* Github Trending */,
 				45F18CC420EF0BA300C3B582 /* Github TrendingTests */,
 				45F18CCF20EF0BA300C3B582 /* Github TrendingUITests */,
@@ -128,6 +185,12 @@
 				45F18CB420EF0BA300C3B582 /* Github_Trending.xcdatamodeld */,
 				45D311BB20FDE868000C2140 /* popViewController.swift */,
 				45D311BC20FDE868000C2140 /* popViewController.xib */,
+				45ABD3E02104B6650086BC30 /* favoriteViewController.swift */,
+				4544A58F210836F70055ECF9 /* favTrendingViewController.swift */,
+				4544A590210836F70055ECF9 /* favTrendingViewController.xib */,
+				45ABD3E12104B6650086BC30 /* favoriteViewController.xib */,
+				454DAC332108A17000BB46DA /* popFavViewController.swift */,
+				454DAC342108A17000BB46DA /* popFavViewController.xib */,
 			);
 			path = "Github Trending";
 			sourceTree = "<group>";
@@ -170,10 +233,12 @@
 				45F18CA720EF0BA300C3B582 /* Frameworks */,
 				45F18CA820EF0BA300C3B582 /* Resources */,
 				93AF894E5AA76E11ABCBFE69 /* [CP] Embed Pods Frameworks */,
+				4544A58E210833530055ECF9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4544A58D210833530055ECF9 /* PBXTargetDependency */,
 			);
 			name = "Github Trending";
 			productName = "Github Trending";
@@ -253,6 +318,12 @@
 			mainGroup = 45F18CA120EF0BA300C3B582;
 			productRefGroup = 45F18CAB20EF0BA300C3B582 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4544A585210833270055ECF9 /* Products */;
+					ProjectRef = 4544A584210833270055ECF9 /* PagingMenuController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				45F18CA920EF0BA300C3B582 /* Github Trending */,
@@ -262,13 +333,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4544A589210833270055ECF9 /* PagingMenuController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PagingMenuController.framework;
+			remoteRef = 4544A588210833270055ECF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		45F18CA820EF0BA300C3B582 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4544A592210836F70055ECF9 /* favTrendingViewController.xib in Resources */,
 				45D311BE20FDE868000C2140 /* popViewController.xib in Resources */,
 				45F18CB820EF0BA300C3B582 /* Assets.xcassets in Resources */,
+				45ABD3E52104B6650086BC30 /* favoriteViewController.xib in Resources */,
+				454DAC362108A17000BB46DA /* popFavViewController.xib in Resources */,
 				454F692B20FC967400346D9E /* readViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ABD3E62104B6650086BC30 /* favoriteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ABD3E72104B6650086BC30 /* favoriteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,10 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454DAC352108A17000BB46DA /* popFavViewController.swift in Sources */,
 				45D311BD20FDE868000C2140 /* popViewController.swift in Sources */,
 				45F18CB020EF0BA300C3B582 /* ViewController.swift in Sources */,
+				45ABD3E22104B6650086BC30 /* favoriteViewController.swift in Sources */,
 				45F18CB620EF0BA300C3B582 /* Github_Trending.xcdatamodeld in Sources */,
 				454F692A20FC967400346D9E /* readViewController.swift in Sources */,
+				4544A591210836F70055ECF9 /* favTrendingViewController.swift in Sources */,
 				45F18CAE20EF0BA300C3B582 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ABD3E32104B6650086BC30 /* favoriteViewController.swift in Sources */,
 				45F18CC620EF0BA300C3B582 /* Github_TrendingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ABD3E42104B6650086BC30 /* favoriteViewController.swift in Sources */,
 				45F18CD120EF0BA300C3B582 /* Github_TrendingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +455,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4544A58D210833530055ECF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingMenuController;
+			targetProxy = 4544A58C210833530055ECF9 /* PBXContainerItemProxy */;
+		};
 		45F18CC320EF0BA300C3B582 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 45F18CA920EF0BA300C3B582 /* Github Trending */;
@@ -488,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F14FB39FE6644ADE41B822D9 /* Pods-Github Trending.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Github Trending/Info.plist";
@@ -503,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9546575212300F847BB49594 /* Pods-Github Trending.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Github Trending/Info.plist";
